@@ -18,7 +18,7 @@ public class C01_HashSet {
 		}
 		System.out.println(benzersiz);
 		
-		Object[] tekrarsizArr=benzersiz.toArray();
+		Object[] tekrarsizArr=benzersiz.toArray();//seti arraye cevirdik
 		System.out.println(Arrays.toString(tekrarsizArr));
 	}
 }
